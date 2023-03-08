@@ -127,4 +127,39 @@ ul li:hover{
 }
 
 
+.cover{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-cover{
+    display: flex;
+    overflow: hidden;
+}
+
+.bottom-slides{
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    display: flex;
+}
+
+.radio-press{
+    display: none;
+}
+
+
+.bottom-cover{
+    background-color: white;
+    padding: 2px;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.bottom-cover:not(:last-child){
+    margin-right:5px;
+}
 
